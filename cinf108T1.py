@@ -1,0 +1,32 @@
+def print_grading_rules():
+    print("Grading Rules:")
+    print("1. This course is A-E graded.")
+    print("2. Weekly assignments count for approximately 80% of the final grade.")
+    print("3. Midterm and Final Project count for approximately 20% of the final grade.")
+    print("4. Your final grade will be based on a scale of 100 points:")
+    print("   A: 100-94")
+    print("   A-: 93-89")
+    print("   B+: 88-85")
+    print("   B: 84-82")
+    print("   B-: 81-79")
+    print("   C+: 78-76")
+    print("   C: 75-73")
+    print("   C-: 72-70")
+    print("   D+: 69-67")
+    print("   D: 66-64")
+    print("   D-: 63-60")
+    print("   E: 59-0")
+
+def print_submission_rules():
+    print("\nAssignment Submission Rules:")
+    print("1. All assignments must be submitted on time. Any assignment marked as late in Brightspace will have 0 points.")
+    print("2. The quality of your code will be assessed. If I can't successfully run your code, I will deduct points.")
+    print("3. Ensure that your code repository is publicly accessible. Instructions for creating code repositories in GitHub have been provided.")
+    print("4. In some instances, you will be required to submit a screenshot of the results of your program.")
+    print("5. All grades are individual.")
+    print("6. There are no make-up opportunities for missed assignments, quizzes, and exams, except for religious observance or a medical absence with a doctor’s note.")
+    print("7. There are no extra credits available for this course.")
+
+if __name__ == "__main__":
+    print_grading_rules()
+    print_submission_rules()
